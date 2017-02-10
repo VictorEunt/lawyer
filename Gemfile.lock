@@ -130,7 +130,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  angular-rails-templates
+  angular-rails-templates (= 0.3.0)
   bower-rails
   coffee-rails (~> 4.0.0)
   devise (~> 3.5.1)
