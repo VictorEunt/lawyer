@@ -21,7 +21,6 @@ development:
   encoding: unicode
   database: db/lawyer_production 
   username: estrada
-  password: juanita5
   pool: 5
   timeout: 5000
 # Warning: The database defined as "test" will be erased and
@@ -32,12 +31,5 @@ test:
   encoding: unicode
   database: db/lawyer_test
   username: estrada
-  password: juanita5
-  pool: 5
-  timeout: 5000
-
-production:
-  adapter: postgresql
-  encoding: unicode
   pool: 5
   timeout: 5000
